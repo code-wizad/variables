@@ -1,0 +1,473 @@
+:root {
+    /* form width */
+
+    --form-width-Percentile-10: 10%;
+    --form-width-Percentile-20: 20%;
+    --form-width-Percentile-30: 30%;
+    --form-width-Percentile-40: 40%;
+    --form-width-Percentile-50: 50%;
+    --form-width-Percentile-60: 60%;
+    --form-width-Percentile-70: 70%;
+    --form-width-Percentile-80: 80%;
+    --form-width-Percentile-90: 90%;
+    --form-width-Percentile-10: 100%;
+
+    /* form height */
+     --form-height-Percentile-10: 10%;
+     --form-height-Percentile-20: 20%;
+     --form-height-Percentile-30: 30%;
+     --form-height-Percentile-40: 40%;
+     --form-height-Percentile-50: 50%;
+     --form-height-Percentile-60: 60%;
+     --form-height-Percentile-70: 70%;
+     --form-height-Percentile-80: 80%;
+     --form-height-Percentile-90: 90%;
+     --form-height-Percentile-10: 100%;
+
+    /* form margin */
+    /* small margin upto 5-15px */
+    --form-margin-1: 1px;
+    --form-margin-2: 2px;
+    --form-margin-3: 3px;
+    --form-margin-4: 4px;
+    --form-margin-5: 5px;
+    --form-margin-6: 6px;
+    --form-margin-7: 7px;
+    --form-margin-8: 8px;
+    --form-margin-9: 9px;
+    --form-margin-10: 10px;
+    --form-margin-11: 11px;
+    --form-margin-12: 12px;
+    --form-margin-13: 13px;
+    --form-margin-14: 14px;
+    --form-margin-15: 15px;
+
+    /* meduium margin upto 15-30px */
+    --form-margin-16: 16px;
+    --form-margin-17: 17px;
+    --form-margin-18: 18px;
+    --form-margin-19: 19px;
+    --form-margin-20: 20px;
+    --form-margin-21: 21px;
+    --form-margin-22: 22px;
+    --form-margin-23: 23px;
+    --form-margin-24: 24px;
+    --form-margin-25: 25px;
+    --form-margin-26: 26px;
+    --form-margin-27: 27px;
+    --form-margin-28: 28px;
+    --form-margin-29: 29px;
+    --form-margin-30: 30px;
+
+    /* form 30-60px is not defined */
+
+    /* form padding */
+
+        /* small padding upto 5-15px */
+        --form-padding-1: 1px;
+        --form-padding-2: 2px;
+        --form-padding-3: 3px;
+        --form-padding-4: 4px;
+        --form-padding-5: 5px;
+        --form-padding-6: 6px;
+        --form-padding-7: 7px;
+        --form-padding-8: 8px;
+        --form-padding-9: 9px;
+        --form-padding-10: 10px;
+        --form-padding-11: 11px;
+        --form-padding-12: 12px;
+        --form-padding-13: 13px;
+        --form-padding-14: 14px;
+        --form-padding-15: 15px;
+        
+    /* meduium padding upto 15-30px */
+    --form-padding-16: 16px;
+    --form-padding-17: 17px;
+    --form-padding-18: 18px;
+    --form-padding-19: 19px;
+    --form-padding-20: 20px;
+    --form-padding-21: 21px;
+    --form-padding-22: 22px;
+    --form-padding-23: 23px;
+    --form-padding-24: 24px;
+    --form-padding-25: 25px;
+    --form-padding-26: 26px;
+    --form-padding-27: 27px;
+    --form-padding-28: 28px;
+    --form-padding-29: 29px;
+    --form-padding-30: 30px;
+    
+/* padding top  */
+
+        /* small padding upto 5-15px */
+        --form-padding-top-1: 1px;
+        --form-padding-top-2: 2px;
+        --form-padding-top-3: 3px;
+        --form-padding-top-4: 4px;
+        --form-padding-top-5: 5px;
+        --form-padding-top-6: 6px;
+        --form-padding-top-7: 7px;
+        --form-padding-top-8: 8px;
+        --form-padding-top-9: 9px;
+        --form-padding-top-10: 10px;
+        --form-padding-top-11: 11px;
+        --form-padding-top-12: 12px;
+        --form-padding-top-13: 13px;
+        --form-padding-top-14: 14px;
+        --form-padding-top-15: 15px;
+        
+    /* meduium padding upto 15-30px */
+    --form-padding-top-16: 16px;
+    --form-padding-top-17: 17px;
+    --form-padding-top-18: 18px;
+    --form-padding-top-19: 19px;
+    --form-padding-top-20: 20px;
+    --form-padding-top-21: 21px;
+    --form-padding-top-22: 22px;
+    --form-padding-top-23: 23px;
+    --form-padding-top-24: 24px;
+    --form-padding-top-25: 25px;
+    --form-padding-top-26: 26px;
+    --form-padding-top-27: 27px;
+    --form-padding-top-28: 28px;
+    --form-padding-top-29: 29px;
+    --form-padding-top-30: 30px;
+    
+/* padding end  */
+
+        /* small padding upto 5-15px */
+        --form-padding-end-1: 1px;
+        --form-padding-end-2: 2px;
+        --form-padding-end-3: 3px;
+        --form-padding-end-4: 4px;
+        --form-padding-end-5: 5px;
+        --form-padding-end-6: 6px;
+        --form-padding-end-7: 7px;
+        --form-padding-end-8: 8px;
+        --form-padding-end-9: 9px;
+        --form-padding-end-10: 10px;
+        --form-padding-end-11: 11px;
+        --form-padding-end-12: 12px;
+        --form-padding-end-13: 13px;
+        --form-padding-end-14: 14px;
+        --form-padding-end-15: 15px;
+        
+    /* meduium padding upto 15-30px */
+    --form-padding-end-16: 16px;
+    --form-padding-end-17: 17px;
+    --form-padding-end-18: 18px;
+    --form-padding-end-19: 19px;
+    --form-padding-end-20: 20px;
+    --form-padding-end-21: 21px;
+    --form-padding-end-22: 22px;
+    --form-padding-end-23: 23px;
+    --form-padding-end-24: 24px;
+    --form-padding-end-25: 25px;
+    --form-padding-end-26: 26px;
+    --form-padding-end-27: 27px;
+    --form-padding-end-28: 28px;
+    --form-padding-end-29: 29px;
+    --form-padding-end-30: 30px;
+
+/* padding bottom  */
+
+        /* small padding upto 5-15px */
+        --form-padding-bottom-1: 1px;
+        --form-padding-bottom-2: 2px;
+        --form-padding-bottom-3: 3px;
+        --form-padding-bottom-4: 4px;
+        --form-padding-bottom-5: 5px;
+        --form-padding-bottom-6: 6px;
+        --form-padding-bottom-7: 7px;
+        --form-padding-bottom-8: 8px;
+        --form-padding-bottom-9: 9px;
+        --form-padding-bottom-10: 10px;
+        --form-padding-bottom-11: 11px;
+        --form-padding-bottom-12: 12px;
+        --form-padding-bottom-13: 13px;
+        --form-padding-bottom-14: 14px;
+        --form-padding-bottom-15: 15px;
+        
+    /* meduium padding upto 15-30px */
+    --form-padding-bottom-16: 16px;
+    --form-padding-bottom-17: 17px;
+    --form-padding-bottom-18: 18px;
+    --form-padding-bottom-19: 19px;
+    --form-padding-bottom-20: 20px;
+    --form-padding-bottom-21: 21px;
+    --form-padding-bottom-22: 22px;
+    --form-padding-bottom-23: 23px;
+    --form-padding-bottom-24: 24px;
+    --form-padding-bottom-25: 25px;
+    --form-padding-bottom-26: 26px;
+    --form-padding-bottom-27: 27px;
+    --form-padding-bottom-28: 28px;
+    --form-padding-bottom-29: 29px;
+    --form-padding-bottom-30: 30px;
+
+/* padding start  */
+
+        /* small padding upto 5-15px */
+        --form-padding-start-1: 1px;
+        --form-padding-start-2: 2px;
+        --form-padding-start-3: 3px;
+        --form-padding-start-4: 4px;
+        --form-padding-start-5: 5px;
+        --form-padding-start-6: 6px;
+        --form-padding-start-7: 7px;
+        --form-padding-start-8: 8px;
+        --form-padding-start-9: 9px;
+        --form-padding-start-10: 10px;
+        --form-padding-start-11: 11px;
+        --form-padding-start-12: 12px;
+        --form-padding-start-13: 13px;
+        --form-padding-start-14: 14px;
+        --form-padding-start-15: 15px;
+        
+    /* meduium padding upto 15-30px */
+    --form-padding-start-16: 16px;
+    --form-padding-start-17: 17px;
+    --form-padding-start-18: 18px;
+    --form-padding-start-19: 19px;
+    --form-padding-start-20: 20px;
+    --form-padding-start-21: 21px;
+    --form-padding-start-22: 22px;
+    --form-padding-start-23: 23px;
+    --form-padding-start-24: 24px;
+    --form-padding-start-25: 25px;
+    --form-padding-start-26: 26px;
+    --form-padding-start-27: 27px;
+    --form-padding-start-28: 28px;
+    --form-padding-start-29: 29px;
+    --form-padding-start-30: 30px;
+    
+    /* form border */
+        /* border upto 5-15px */
+        --form-border-1: 1px;
+        --form-border-2: 2px;
+        --form-border-3: 3px;
+        --form-border-4: 4px;
+        --form-border-5: 5px;
+        --form-border-6: 6px;
+        --form-border-7: 7px;
+        --form-border-8: 8px;
+        --form-border-9: 9px;
+        --form-border-10: 10px;
+        --form-border-11: 11px;
+        --form-border-12: 12px;
+        --form-border-13: 13px;
+        --form-border-14: 14px;
+        --form-border-15: 15px;
+        
+    /* border upto 15-30px */
+    --form-border-16: 16px;
+    --form-border-17: 17px;
+    --form-border-18: 18px;
+    --form-border-19: 19px;
+    --form-border-20: 20px;
+    --form-border-21: 21px;
+    --form-border-22: 22px;
+    --form-border-23: 23px;
+    --form-border-24: 24px;
+    --form-border-25: 25px;
+    --form-border-26: 26px;
+    --form-border-27: 27px;
+    --form-border-28: 28px;
+    --form-border-29: 29px;
+    --form-border-30: 30px;
+    
+    /* form font size */
+        /* font size upto 5-15px */
+        --form-font-size-1: 1px;
+        --form-font-size-2: 2px;
+        --form-font-size-3: 3px;
+        --form-font-size-4: 4px;
+        --form-font-size-5: 5px;
+        --form-font-size-6: 6px;
+        --form-font-size-7: 7px;
+        --form-font-size-8: 8px;
+        --form-font-size-9: 9px;
+        --form-font-size-10: 10px;
+        --form-font-size-11: 11px;
+        --form-font-size-12: 12px;
+        --form-font-size-13: 13px;
+        --form-font-size-14: 14px;
+        --form-font-size-15: 15px;
+        
+    /* font size upto 15-30px */
+    --form-font-size-16: 16px;
+    --form-font-size-17: 17px;
+    --form-font-size-18: 18px;
+    --form-font-size-19: 19px;
+    --form-font-size-20: 20px;
+    --form-font-size-21: 21px;
+    --form-font-size-22: 22px;
+    --form-font-size-23: 23px;
+    --form-font-size-24: 24px;
+    --form-font-size-25: 25px;
+    --form-font-size-26: 26px;
+    --form-font-size-27: 27px;
+    --form-font-size-28: 28px;
+    --form-font-size-29: 29px;
+    --form-font-size-30: 30px;
+    
+    /* form font weight */
+    --form-font-weight-1: 100;
+    --form-font-weight-2: 200;
+    --form-font-weight-3: 300;
+    --form-font-weight-4: 400;
+    --form-font-weight-5: 500;
+    --form-font-weight-6: 600;
+    --form-font-weight-7: 700;
+    --form-font-weight-8: 800;
+    --form-font-weight-9: 900;
+    --form-font-weight-10: 1000;
+    
+/* form line height size */
+    /* line height size upto 5-15px */
+    --form-line-height-1: 1px;
+    --form-line-height-2: 2px;
+    --form-line-height-3: 3px;
+    --form-line-height-4: 4px;
+    --form-line-height-5: 5px;
+    --form-line-height-6: 6px;
+    --form-line-height-7: 7px;
+    --form-line-height-8: 8px;
+    --form-line-height-9: 9px;
+    --form-line-height-10: 10px;
+    --form-line-height-11: 11px;
+    --form-line-height-12: 12px;
+    --form-line-height-13: 13px;
+    --form-line-height-14: 14px;
+    --form-line-height-15: 15px;
+    
+/* line height upto 15-30px */
+--form-font-size-16: 16px;
+--form-font-size-17: 17px;
+--form-font-size-18: 18px;
+--form-font-size-19: 19px;
+--form-font-size-20: 20px;
+--form-font-size-21: 21px;
+--form-font-size-22: 22px;
+--form-font-size-23: 23px;
+--form-font-size-24: 24px;
+--form-font-size-25: 25px;
+--form-font-size-26: 26px;
+--form-font-size-27: 27px;
+--form-font-size-28: 28px;
+--form-font-size-29: 29px;
+--form-font-size-30: 30px;
+
+/* text colors starts */
+
+/* Basic Colors */
+--text-color-black: #000000;
+--text-color-white: #ffffff;
+--text-color-gray-50: #f9fafb;
+--text-color-gray-100: #f3f4f6;
+--text-color-gray-200: #e5e7eb;
+--text-color-gray-300: #d1d5db;
+--text-color-gray-400: #9ca3af;
+--text-color-gray-500: #6b7280;
+--text-color-gray-600: #4b5563;
+--text-color-gray-700: #374151;
+--text-color-gray-800: #1f2937;
+--text-color-gray-900: #111827;
+
+/* Red Colors */
+    --text-color-red-50: #fef2f2;
+    --text-color-red-100: #fee2e2;
+    --text-color-red-200: #fecaca;
+    --text-color-red-300: #fca5a5;
+    --text-color-red-400: #f87171;
+    --text-color-red-500: #ef4444;
+    --text-color-red-600: #dc2626;
+    --text-color-red-700: #b91c1c;
+    --text-color-red-800: #991b1b;
+    --text-color-red-900: #7f1d1d;
+
+    /* Yellow Colors */
+    --text-color-yellow-50: #fffbeb;
+    --text-color-yellow-100: #fef3c7;
+    --text-color-yellow-200: #fde68a;
+    --text-color-yellow-300: #fcd34d;
+    --text-color-yellow-400: #fbbf24;
+    --text-color-yellow-500: #f59e0b;
+    --text-color-yellow-600: #d97706;
+    --text-color-yellow-700: #b45309;
+    --text-color-yellow-800: #92400e;
+    --text-color-yellow-900: #78350f;
+
+    /* Green Colors */
+    --text-color-green-50: #f0fdf4;
+    --text-color-green-100: #dcfce7;
+    --text-color-green-200: #bbf7d0;
+    --text-color-green-300: #86efac;
+    --text-color-green-400: #4ade80;
+    --text-color-green-500: #22c55e;
+    --text-color-green-600: #16a34a;
+    --text-color-green-700: #15803d;
+    --text-color-green-800: #166534;
+    --text-color-green-900: #14532d;
+    
+    /* Blue Colors */
+    --text-color-blue-50: #eff6ff;
+    --text-color-blue-100: #dbeafe;
+    --text-color-blue-200: #bfdbfe;
+    --text-color-blue-300: #93c5fd;
+    --text-color-blue-400: #60a5fa;
+    --text-color-blue-500: #3b82f6;
+    --text-color-blue-600: #2563eb;
+    --text-color-blue-700: #1d4ed8;
+    --text-color-blue-800: #1e40af;
+    --text-color-blue-900: #1e3a8a;
+    
+    /* Indigo Colors */
+    --text-color-indigo-50: #eef2ff;
+    --text-color-indigo-100: #e0e7ff;
+    --text-color-indigo-200: #c7d2fe;
+    --text-color-indigo-300: #a5b4fc;
+    --text-color-indigo-400: #818cf8;
+    --text-color-indigo-500: #6366f1;
+    --text-color-indigo-600: #4f46e5;
+    --text-color-indigo-700: #4338ca;
+    --text-color-indigo-800: #3730a3;
+    --text-color-indigo-900: #312e81;
+    
+    /* Purple Colors */
+    --text-color-purple-50: #f5f3ff;
+    --text-color-purple-100: #ede9fe;
+    --text-color-purple-200: #ddd6fe;
+    --text-color-purple-300: #c4b5fd;
+    --text-color-purple-400: #a78bfa;
+    --text-color-purple-500: #8b5cf6;
+    --text-color-purple-600: #7c3aed;
+    --text-color-purple-700: #6d28d9;
+    --text-color-purple-800: #5b21b6;
+    --text-color-purple-900: #4c1d95;
+    
+    /* Pink Colors */
+    --text-color-pink-50: #fdf2f8;
+    --text-color-pink-100: #fce7f3;
+    --text-color-pink-200: #fbcfe8;
+    --text-color-pink-300: #f9a8d4;
+    --text-color-pink-400: #f472b6;
+    --text-color-pink-500: #ec4899;
+    --text-color-pink-600: #db2777;
+    --text-color-pink-700: #be185d;
+    --text-color-pink-800: #9d174d;
+    --text-color-pink-900: #831843;
+    
+    /* text colors ends */
+
+    /* background colors */
+    
+    --bg-one: black;
+    --bg-two: rgb(168, 227, 105);
+    --bg-three : rgb(220, 220, 220);
+    --bg-four: rgb(232, 215, 88);
+    --bg-five: rgb(238, 163, 77);
+    --bg-six: rgb(131, 54, 224);
+    --bg-seven: rgb(169, 51, 216);
+    --bg-eight: rgb(32, 14, 9);
+}
