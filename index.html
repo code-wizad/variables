@@ -3,10 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Account Creation Form</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
-<h1>variables</h1>
+<header class="formcontainer">
+    <h2>Account Creation</h2>
+    <form>
+        <section class="form-section-one">
+            <fieldset>
+                <legend>Lets talk</legend>
+                <label for="first-name">First name</label>
+                <input type="text" id="txt-first-name" name="first_name" placeholder="Enter your name here" required>
+                
+                <label for="lname-name">Last name</label>
+                <input type="text" id="txt-lname-name" name="lname-name" placeholder="Enter your last name here" required>
+                
+                <label for="Email">Email address</label>
+                <input type="text" id="txt-email" name="Email" placeholder="Enter your Email address here" required>
+                
+                <label for="Password">Password</label>
+                <input type="password" id="txt-password" name="Password" placeholder="Enter your passcode here" required>
+                
+                <label for="confirm">confirm password</label>
+                <input type="text" id="txt-confirm-password" name="confirm-password" placeholder="Re-Enter your passcode here" required>
+                
+            </fieldset>
+            
+        </section>
+        <section class="section-two">
+            <fieldset>
+                <legend>Committe this message</legend>
+                <button type="button" class="btn-submit">Submit</button>
+                <button type="button" class="btn-reset">Reset</button>
+                <button type="button" class="btn-cancel">Cancel</button>
+            </fieldset>
+            
+        </section>
+        <section class="section-three">
+            <p style="color: white; font-family: Verdana, Geneva, Tahoma, sans-serif;">You have account <span><a href="login.html" target="_blank">Login</a></span></p>
+        </section>
+    </form>
+</header>
+
+
 </body>
 </html>

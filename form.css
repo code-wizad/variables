@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+
+.formcontainer {
+    width: 60dvw;
+    background-color: black;
+    border-radius: calc(1em);
+    height: min-content;
+    margin: 0 auto;
+    padding: 2px 10px;
+    border: 1px solid whitesmoke;
+}
+.formcontainer h2 {
+    text-align: center;
+    color: aliceblue;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.formcontainer section {
+    width: 100%;
+    height: fit-content;
+    /* border: 1px solid orange; */
+    margin: 10px auto;
+    padding: 5px 2px;
+    border-radius: 10px;
+    /* background-color: beige; */
+}
+.formcontainer fieldset {
+    border-radius: calc(0.625em);
+    /* border: 0; */
+}
+.formcontainer legend {
+    color: beige;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.form-section-one label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(201, 200, 198);
+    width: 100%;
+    font-size: calc(1em + 5px);
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.formcontainer .form-section-one input[type="text"],
+.formcontainer .form-section-one input[type="Password"] {
+    cursor: pointer;
+ width: 100%;
+ padding: 0.625em;
+ color: aliceblue;
+ /* border-radius: 3px; */
+ font-size: large;
+border: 1px solid rgba(245, 245, 220, 0.166);
+background-color: black;
+/* border-bottom: 0; */
+/* border-top: 0; */
+border-left: 0;
+border-right: 0;
+margin: calc(1em) auto;
+font-family: "Azeret Mono", monospace;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+}
+.formcontainer .form-section-one:hover input[type="text"]:hover,
+.formcontainer .form-section-one:hover input[type="Email"]:hover
+.formcontainer .form-section-one:hover input[type="Password"]:hover
+ {
+background-color: rgba(255, 255, 255, 0.1);
+}
+.formcontainer .form-section-one:hover input[type="text"]:focus,
+.formcontainer .form-section-one:hover input[type="Email"]:focus,
+.formcontainer .form-section-one:hover input[type="Password"]:focus {
+    border: 1px solid grey;
+    color: white;
+}
+.formcontainer .section-two button.btn-submit,
+.formcontainer .section-two button.btn-reset,
+.formcontainer .section-two button.btn-cancel {
+    cursor: pointer;
+    padding: calc(1em);
+    width: 100%;
+    margin: calc(0.25em) auto;
+    font-size: large;
+    border: 1px solid rgba(245, 245, 220, 0.166);
+    /* border-top: 0; */
+    border-right: 0;
+    /* border-bottom: 0; */
+    border-left: 0;
+    background-color: rgba(0, 0, 0, 1);
+    color: aliceblue;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.formcontainer .section-three a {
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formcontainer .section-three a:hover {
+    text-decoration: underline;
+
+}
+.formcontainer .section-three a:focus {
+  text-decoration: line-through;
+
+}
+/* login form design starts */
+.login-container {
+        width: 60dvw;
+        background-color: black;
+        border-radius: calc(1em);
+        height: min-content;
+        margin: 0 auto;
+        padding: 2px 10px;
+        border: 1px solid whitesmoke;
+}
+.login-container h2 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.login-container section.section-one,
+.login-container section.section-two,
+.login-container section.section-three {
+    width: 100%;
+    padding: calc(1em);
+}
+.login-container label {
+    color: white;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.login-container fieldset {
+    border-radius: calc(0.625em);
+    /* border: 0; */
+}
+.login-container input[type="text"],
+.login-container input[type="Password"],
+.login-container input[type="email"] {
+cursor: pointer;
+ width: 100%;
+ padding: 0.625em;
+ color: aliceblue;
+ /* border-radius: 3px; */
+ font-size: large;
+border: 1px solid rgba(245, 245, 220, 0.166);
+background-color: black;
+/* border-bottom: 0; */
+/* border-top: 0; */
+border-left: 0;
+border-right: 0;
+margin: calc(1em) auto;
+font-family: "Azeret Mono", monospace;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+}
+.login-container fieldset:hover input[type="text"]:hover,
+.login-container fieldset:hover input[type="Email"]:hover
+.login-container fieldset:hover input[type="Password"]:hover
+ {
+background-color: #ffffff1a;
+}
+.login-container fieldset:hover input[type="text"]:focus,
+.login-container fieldset:hover input[type="Email"]:focus,
+.login-container fieldset:hover input[type="Password"]:focus {
+    border: 1px solid grey;
+    color: white;
+}
+.login-container button.btn-submit,
+.login-container button.btn-reset,
+.login-container button.btn-cancel {
+    cursor: pointer;
+    padding: calc(1em);
+    width: 100%;
+    margin: calc(0.25em) auto;
+    font-size: large;
+    border: 1px solid rgba(245, 245, 220, 0.166);
+    /* border-top: 0; */
+    border-right: 0;
+    /* border-bottom: 0; */
+    border-left: 0;
+    background-color: rgba(0, 0, 0, 1);
+    color: aliceblue;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.login-container section.section-three p,a {
+    color: white;
+}
+.login-container section.section-three a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.login-container section.section-three a:hover {
+    text-decoration: underline;
+}
+.login-container section.section-three a:focus {
+   text-decoration: line-through;
+}
+
+/* login form design ends */
