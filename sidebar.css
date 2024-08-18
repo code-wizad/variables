@@ -1,0 +1,70 @@
+:root {
+    --bgDark: black;
+    --bgWhite: white;
+    --borderRadius: 50%;
+    --borderRadiusTop: 10px;
+   --border: 1px solid grey;
+   --borderColorOne: green;
+   --borderColorTwo: red;
+   --borderColorThree: orange;
+   --borderColorFour: blue;
+   --borderColorFive: black;
+
+
+
+   --textBlack: black;
+   --textWhite: white;
+   --textGreen: green;
+   --textRed: red;
+   --textGrey: grey;
+
+
+
+   --aWhite: rgba(255, 255, 255, 0.349);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus {
+    box-shadow: none;
+    border: 0;
+}
+.offcanvas {
+    /* height:; */
+    margin: 10px 10px;
+    /* border: solid grey; */
+    border-radius: 10px;
+    backdrop-filter: blur( 10px);
+    background-color: rgba(255, 255, 255, 0.097);
+}
+.offcanvas-header {
+    color: white;
+}
+.offcanvas button {
+    width: 50px;
+   height: fit-content;
+    margin: 0 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: orange; */
+    background-color: transparent;
+    border: 0;
+    position: relative;
+}
+.offcanvas span {
+    width: 30px;
+    height: 5px;
+    margin: 1px;
+    /* border: var(--border); */
+    border-radius: 5px;
+  transition: all 1s ease;
+}
+
+.
