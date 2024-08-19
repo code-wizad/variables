@@ -4,6 +4,7 @@ window.onload = function () {
     const websiteNameScreen = document.getElementById('website-name-screen');
     const welcomeScreen = document.getElementById('welcome-screen');
     const websiteContent = document.getElementById('website-content');
+    const preloaderWrapper = document.getElementById('preloaderWrapper');
 
     let loadCounter = 0;
     let filesFullyLoaded = false;
@@ -16,18 +17,16 @@ window.onload = function () {
                 loadCounter += 1; 
                 loadingNumber.textContent = `${loadCounter}%`;
 
-                // Check if counter has finished and files are loaded
                 if (loadCounter === 100) {
                     counterFinished = true;
                     clearInterval(counterInterval);
 
                     if (filesFullyLoaded) {
-                        // Show the second screen after a short delay
                         setTimeout(showSecondScreen, 1000);
                     }
                 }
             }
-        }, 50); // Animation speed of the loading counter
+        }, 50);
     }
 
     // Function to check if all files (CSS, images, etc.) are loaded
@@ -65,7 +64,6 @@ window.onload = function () {
             }
         }
 
-        // Check if all resources are loaded
         if (document.readyState === 'complete' && imagesLoaded === totalImages) {
             filesFullyLoaded = true;
             if (counterFinished) {
@@ -93,7 +91,20 @@ window.onload = function () {
         gsap.to(websiteContent, { display: 'block', opacity: 1, duration: 1, onStart: () => {
             websiteContent.classList.remove('hidden');
             websiteContent.style.display = 'block';
+            finalizePreloader(); // Finalize preloader after content is shown
         }});
+    }
+
+    // Function to handle final preloader tasks
+    function finalizePreloader() {
+        // Hide the preloaderWrapper with a fade-out effect
+        gsap.to("#preloaderWrapper", { opacity: 0, duration: 1, onComplete: () => {
+            document.getElementById('preloaderWrapper').style.display = 'none';
+        }});
+
+        // Ensure the welcome screen is shown and all other preloader screens are hidden
+        gsap.to(".welcome-screen", { opacity: 1, duration: 1 });
+        gsap.to(".reveal-screen", { opacity: 0, duration: 1 });
     }
 
     // Start the loading counter
@@ -102,3 +113,16 @@ window.onload = function () {
     // Begin checking if all files have loaded
     checkFilesLoaded();
 };
+
+
+
+
+
+
+
+
+function hidePreloaderWrapper() {
+    gsap.to("#preloaderWrapper", { opacity: 0, duration: 1, onComplete: () => {
+        document.getElementById('preloaderWrapper').style.display = 'none';
+    }});
+}

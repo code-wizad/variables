@@ -2,10 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    width: 100%;
+    height: 100%;
+    /* background-color: #000; */
 }
 
-body, html {
-    height: 100%;
+#preloaderWrapper {
+    height: 100dvh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +30,7 @@ body, html {
     justify-content: center;
     align-items: center;
     /* background-color: #1a1a1a; */
-    color: #ffffff;
+    color: white;
 }
 
 .loading-number {
@@ -30,17 +39,16 @@ body, html {
     position: absolute;
     bottom: 10%;
     right: 10%;
-    color: #ffffff;
+    color: white;
 }
 
 .hidden {
     display: none;
 }
-
 .reveal-screen h1 {
     font-size: 64px;
     letter-spacing: 5px;
-    color: #ffffff;
+    color: white;
 }
 
 #website-content {
